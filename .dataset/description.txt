@@ -1,0 +1,16 @@
+The data is collected from finance.yahoo.com, downloading the daily data of Bitcoin, Ethereum and Dogecoin from 2018-Mar-01 to 2024-Mar-01, including close price, open price, high price, low price, Adjust close and the  volume of trading coins with Currency in USD.
+
+- Sources
+BTC-USD: https://finance.yahoo.com/quote/BTC-USD/history
+Dodge-USD: https://finance.yahoo.com/quote/DOGE-USD/history
+ETH-USD: https://finance.yahoo.com/quote/ETH-USD/history
+
+- Attributes
+Date: Represents the date of the trading day.
+Open: Refers to the opening price of Bitcoin/Ethereum/Dodgecoin on that particular day.
+High: Indicates the highest price reached by Bitcoin/Ethereum/Dodgecoin during that day.
+Low: Represents the lowest price reached by Bitcoin/Ethereum/Dodgecoin during that day.
+Close: Refers to the closing price of Bitcoin/ETH/Dodge on that day.
+Adj Close: Represents the adjusted closing price, which accounts for factors like dividends and stock splits.
+Volume: Refers to the trading volume of Bitcoin on that day, i.e., the total number of Bitcoin/Ethereum/Dodge units traded.
+
